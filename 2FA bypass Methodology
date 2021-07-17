@@ -12,7 +12,7 @@
 12. Password can be reset via forgot password without 2FA.
 13. Enter same number of 0(s) in the code.
 14. No 2FA on reset password.
-15. Request Manipulation: Try sending null response for JSON, discover and change params like "otprequired" to false, remove the 2fa code, remove both code and parameter, in JSON give email as an array, my medium write-up (Link is in bio).
+15. Request Manipulation: Try sending null response for JSON, discover and change params like "otprequired" to false, remove the 2fa code, remove both code and parameter, in JSON give email as an array.
 16. OpenID Misconfiguration: https://youst.in/posts/bypassing-2fa-using-openid-misconfiguration/
 17. Code doesn't expire after few hours.
 18. After login to victim's account, generate the backup code generation request from your browser. You may able to get the backup codes of victim.
